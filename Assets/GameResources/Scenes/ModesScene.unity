@@ -1638,6 +1638,7 @@ GameObject:
   - component: {fileID: 8809027975642227127}
   - component: {fileID: 8809027975642227128}
   - component: {fileID: 8809027975642227130}
+  - component: {fileID: 8809027975642227131}
   - component: {fileID: 8809027975642227129}
   m_Layer: 0
   m_Name: Male
@@ -1772,6 +1773,7 @@ MonoBehaviour:
   - {fileID: 472730231}
   bodyPartsModuleControllers:
   - {fileID: 8809027975642227130}
+  - {fileID: 8809027975642227131}
 --- !u!114 &8809027975642227129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1784,7 +1786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f1fa6f0577319040af77c08db88d2eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bodyPartHealthController: {fileID: 8809027975642227130}
+  bodyPartDamageCalculator: {fileID: 8809027975642227131}
   bodyPartType: {fileID: 11400000, guid: 4249bd5f403c8304c8fd2a7f0fe42fad, type: 2}
   damageType: {fileID: 11400000, guid: 3d66bb3ff66e7c7409ff3f9be9393944, type: 2}
   damage: 99
@@ -1798,6 +1800,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a03d5793c19eba342aa5d52ad89348aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8809027975642227131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769914726596427665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f53a2d7b37e70438a0707d738668f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807

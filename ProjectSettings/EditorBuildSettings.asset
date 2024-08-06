@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/HdrpTemplate/OutdoorsScene.unity
-    guid: 8124e5870f4fd4c779e7a5f994e84ad1
+    path: Assets/GameResources/Scenes/ModesScene.unity
+    guid: c92a4f101c0344e4eb1de0fbe1f92d2c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
